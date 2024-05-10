@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <form action="./login.html">
+        <fieldset>
+            <legend>Registration form</legend>
+        <label for="fname">Enter First Name: </label>
+        <input type="text" name="fname" id="fname"/>
+        <br><br><label for="sname">Enter Second Name : </label>
+        <input type="text" name="sname" id="sname"/>
+        <br><br><label for="email">Enter Email id: </label>
+        <input type="email" name="email id" id="email"/>
+        <br><br><label for="num">Phone no.: </label>
+        <input type="tel" name="number" id="num" pattern="(?=.*[0-9]).{10}"/>
+        <br><br><label for="address">Address: </label>
+        <input type="text" name="address" id="address"/> 
+        <br><br><label for="pswrd">Create Password:</label>
+       <input name="pswrd"type="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" id="pswrd">
+       <br><br><label for="pswrd">Confirm Password:</label>
+       <input name="pswrd"type="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" id="pswrd">
+        <br><br><input type="submit" value="signup"/>
+    </form>
+  </body>
+</html>
+ 
+   
